@@ -10,7 +10,7 @@ To get started with the AI Image Generator, simply clone this repository to your
 
 bash
 Copy code
-git clone https://github.com/your-username/ai-image-generator.git
+git clone https://github.com/prosenjitdey2143/ai-image-generator-using-javascript.git
 Then, open the index.html file in your preferred web browser to access the application.
 
 Usage
