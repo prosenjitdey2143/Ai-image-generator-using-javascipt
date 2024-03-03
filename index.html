@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="image-generator">
+      <div class="content">
+        <h1>AI image generator tool using JAVASCRIPT</h1>
+        <p>
+          convert your text into an image within a second using this
+          javaScript-powered AI Image Generator Tool
+        </p>
+        <form action="#" class="generate-form">
+          <input
+            type="text"
+            class="prompt-input"
+            placeholder="Describe what you want"
+            required
+          />
+          <div class="controls">
+            <select name="" id="" class="img-quantity">
+              <option value="1">1 image</option>
+              <option value="2">2 images</option>
+              <option value="3">3 images</option>
+              <option value="4">4 images</option>
+            </select>
+            <button type="submit" class="generate-btn">Generate</button>
+          </div>
+        </form>
+      </div>
+      <div class="image-gallery">
+        <!-- image card insert through the javascript when click generate button -->
+        
+        <!-- <div class="image-card">
+          <img
+            src="https://images.unsplash.com/photo-1684369175833-4b445ad6bfb5?q=80&w=1396&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="image"
+          /><a href="#" class="download-btn"
+            ><i class="fa-solid fa-download"></i
+          ></a>
+        </div> -->
+        <div class="image-card">
+            <img
+              src="https://images.unsplash.com/photo-1608273048438-4c3e7c9da383?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="image"
+            /><a href="https://images.unsplash.com/photo-1608273048438-4c3e7c9da383?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="download-btn" download="concept-1"
+              ><i class="fa-solid fa-download"></i
+            ></a>
+          </div>
+          <div class="image-card">
+            <img
+              src="https://images.unsplash.com/photo-1596194651840-41bd95299458?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="image"
+            /><a href="https://images.unsplash.com/photo-1596194651840-41bd95299458?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="download-btn" download="hello.txt"
+              ><i class="fa-solid fa-download"></i
+            ></a>
+          </div>
+          <div class="image-card">
+            <img
+              src="https://images.unsplash.com/photo-1602646993875-70bc0ba52c87?q=80&w=1530&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="image"
+            /><a href="https://images.unsplash.com/photo-1602646993875-70bc0ba52c87?q=80&w=1530&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="download-btn" download="concept-3"
+              ><i class="fa-solid fa-download"></i
+            ></a>
+          </div>
+          <div class="image-card">
+            <img
+              src="https://images.unsplash.com/photo-1543946207-39bd91e70ca7?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="image"
+            /><a href="https://images.unsplash.com/photo-1543946207-39bd91e70ca7?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="download-btn" download="concept-4"
+              ><i class="fa-solid fa-download"></i
+            ></a>
+          </div>
+      </div>
+    </section>
+    
+    <script
+      src="https://kit.fontawesome.com/345c12cdf8.js"
+      crossorigin="anonymous"
+    ></script>
+    
+    <script src="script.js" defer></script>
+  </body>
+</html>
